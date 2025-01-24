@@ -9,7 +9,7 @@ In this data-driven world, it is well-known that the performance of a data-drive
 
 
 ## Features
-- **Privacy-preserving NMF**: A method designed to protect sensitive data using Differential Privacy algorithm while performing Non-negative Matrix Factorization (NMF).
+- **Privacy-preserving NMF**: A method designed to protect sensitive data using the Differential Privacy algorithm while performing Non-negative Matrix Factorization (NMF).
 - **Outlier handling**: Efficiently handling outliers makes it suitable to be effective in real-world noisy environments.
 - **Simulation Result**: Extensive simulations validated the algorithm's effectiveness in topic modeling and facial decomposition.
 
@@ -18,9 +18,12 @@ In this data-driven world, it is well-known that the performance of a data-drive
 Ensure you have the following installed:
 - Python 3.8 or later
 - Required libraries (see `requirements.txt`)
-
+  
 ### Installation
 ```bash
 git clone https://github.com/swapnil-saha/NMF_DP.git
-cd NMF_DP
 pip install -r requirements.txt
+```
+
+### Simulation Run
+topic_modeling_privacy_Git.ipynb will simulate the topic modeling of the Guardian News Articles dataset. 
