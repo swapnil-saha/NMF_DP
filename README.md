@@ -27,3 +27,19 @@ pip install -r requirements.txt
 
 ### Simulation Run
 topic_modeling_privacy_Git.ipynb will simulate the topic modeling of the Guardian News Articles dataset. 
+
+## Citation 
+If you use the work, please cite the following paper. 
+
+```bibtext
+@article{saha2024privacy,
+  title={Privacy-preserving Non-negative Matrix Factorization with Outliers},
+  author={Saha, Swapnil and Imtiaz, Hafiz},
+  journal={ACM Transactions on Knowledge Discovery from Data},
+  volume={18},
+  number={3},
+  pages={1--26},
+  year={2024},
+  publisher={ACM New York, NY}
+}
+
