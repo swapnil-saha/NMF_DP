@@ -5,12 +5,13 @@ This repository contains the code and resources for the project **"Privacy-prese
 > Saha, Swapnil and Imtiaz, Hafiz. "Privacy-preserving Non-negative Matrix Factorization with Outliers." *ACM Transactions on Knowledge Discovery from Data*, vol. 18, no. 3, pp. 1--26, 2024. ACM New York, NY.
 
 ## Overview
-This project introduces a novel approach to non-negative matrix factorization (NMF) that ensures privacy preservation while handling outliers in the data. The method is designed for applications in sensitive data domains, such as healthcare and finance, where maintaining data privacy is crucial.
+In this data-driven world, it is well-known that the performance of a data-driven optimization model for finding insightful population information depends on the quality of the data features. But there is tension regarding privacy, how "safe" a person of that population feels about sharing his private data with the world. Focusing on preserving individual participants' privacy and gaining their trust, we worked on developing a privacy-preserving Non-negative Matrix Factorization (NMF). More specifically, we developed the privacy-preserving non-negative matrix factorization using the Differential Privacy algorithm. As there's no such thing as a free lunch - the system model has to sacrifice its performance/utility (compared to a non-privacy-preserving setup) to give privacy to individual data participants. To make life easier for the system designers, we showed the analysis of the utility gap vs. privacy parameter so that one can choose one's privacy guarantee based on the tolerance of utility loss. 
+
 
 ## Features
-- **Privacy-preserving NMF**: A method designed to protect sensitive data while performing matrix factorization.
-- **Outlier detection and handling**: Efficiently identifies and handles outliers to improve factorization accuracy.
-- **Scalability**: Designed to handle large datasets efficiently.
+- **Privacy-preserving NMF**: A method designed to protect sensitive data using Differential Privacy algorithm while performing Non-negative Matrix Factorization (NMF).
+- **Outlier handling**: Efficiently handling outliers makes it suitable to be effective in real-world noisy environments.
+- **Simulation Result**: Extensive simulations validated the algorithm's effectiveness in topic modeling and facial decomposition.
 
 ## Getting Started
 ### Prerequisites
